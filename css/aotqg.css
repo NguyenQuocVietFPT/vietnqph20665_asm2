@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    min-height: 80px;
+    background-color: #cccc;
+    display: flex;
+}
+.header .logo {
+    width: 25%;
+
+}
+.header .logo img {
+    width: 100%;
+    text-align: center;
+}
+.header .infor{
+    width: 75%;
+}
+.header .infor .hotline{
+    float: left;
+    margin-left: 32px;
+}
+.hotline .ten {
+    font-size: 30px;
+    font-weight: 400;
+    color: red;
+}
+.hotline .sdt a{
+    text-decoration: none;
+    color: black;
+}
+.hotline .sdt a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.hotline .timkiem{
+    text-align: center;
+    margin-top: 15px;
+}
+.timkiem input{
+    margin: 24px;
+    height: 30px;
+}
+.timkiem button:hover{
+    cursor: pointer;
+}
+.nav{
+    width: 100%;
+    min-height: 50px;
+    background-color: blue;
+    text-align: center;
+    padding-top: 16px;    
+}
+.nav p{
+    color: white;
+    letter-spacing: 1;
+}
+.nav a{
+    padding-top: 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+.nav a:hover{
+    text-decoration: underline;
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.container{
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+    box-shadow: 0 0 5px 5px #ccc;
+    margin-bottom: 30px;    
+
+}
+.container h1{
+    text-align: center;
+    color: #ff0000;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 14px;
+    padding-bottom: 9px;
+}
+.content {
+    width: 100%;
+    height: 65%;  
+}
+.content .cot-large{
+    margin-top: 10px;
+    width: 44%;
+    height: 400px;
+    margin-left: 50px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    float: left;
+}
+.cot-large img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.content .cot{
+    margin-top: 10px;
+    width: 20%;
+    height: 400px;
+    margin-left: 50px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    float: left;
+}
+.content .cot:hover{
+    box-shadow: 0 0 20px #0099ff;
+    cursor: pointer;
+}
+.cot .anh{
+    width: 90%;
+    text-align: center;
+}
+.cot .anh img{
+    width: 159px;
+    margin-left: 10px;
+    height: 217px;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+.cot .gioithieu{
+    margin-top: 10px;
+}
+.cot .gioithieu a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #333333;
+}
+.cot .gioithieu a:hover{
+    color: purple;
+}
+.content .gia {
+    margin-top: 18px;
+}
+.content .gia p{
+    line-height: 30px;
+    float: left;
+    margin-left: 30px;
+}
+.gia strong{
+    color: red;
+}
+.footer {
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;   
+    text-align: center; 
+}
+.footer .tieude{
+    padding-top: 5px;
+    text-align: center;
+    width: 100%;
+    min-height: 50px;
+    background-color: red;
+}
+.footer .tieude h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.footer .table_hn{
+    width: 100%;
+    height: 100%;
+}
+.table_hn .name {
+    margin-top: 16px;
+    width: 100%;
+    height: 40px;
+    padding-top: 5px;
+    background-color: #0099ff;
+    border: 1px solid black;
+    color: white;
+}
+.table_hn .list{
+    width: calc(100% / 3);
+    float: left;
+    height: 80%;
+
+}
+.table_hn .list_4{
+    width: 100%;
+    height: 20%;
+
+}
+.table_hn .layout{
+    width: 100%;
+    height: calc(100% / 3); 
+    border: 1px solid black;
+}
+.table_hn .list1_1{
+    line-height: 30px;   
+}
+.table_hn .list1_1 h3{
+    text-align:left;
+    margin-left: 16px;
+}
+.table_hn .list1_1 ul{
+    text-align: left;
+}
+.footer .table_hcm{
+    margin-top: -20px;
+    width: 100%;
+    height: 300px;
+}
+.table_hcm .name {
+    width: 100%;
+    height: 50px;
+    background-color: #0099ff;
+    padding-top: 5px;
+    color: white;
+    border: 1px solid black;
+}
+.table_hcm .list_hcm{
+    width: 100%;
+    height: 200px;
+}
+.table_hcm .layout{
+    float: left;
+    width: calc(100% / 3);
+    height: 100%; 
+    border: 1px solid black;
+}
+.table_hcm .item1 {
+    line-height: 30px;
+}
+.table_hcm .item1 h3{
+    text-align: left;
+    padding-left: 16px;
+}
+.table_hcm .item1 ul{
+    text-align: left;
+}

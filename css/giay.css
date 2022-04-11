@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    min-height: 80px;
+    background-color: #cccc;
+    display: flex;
+}
+.header .logo {
+    width: 25%;
+}
+.header .logo img {
+    width: 100%;
+    text-align: center;
+}
+.header .infor{
+    width: 75%;
+}
+.header .infor .hotline{
+    float: left;
+    margin-left: 32px;
+}
+.hotline .ten {
+    font-size: 30px;
+    font-weight: 400;
+    color: red;
+}
+.hotline .sdt a{
+    text-decoration: none;
+    color: black;
+}
+.hotline .sdt a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.hotline .timkiem{
+    text-align: center;
+    margin-top: 15px;
+}
+.timkiem input{
+    margin: 24px;
+    height: 30px;
+}
+.timkiem button:hover{
+    cursor: pointer;
+}
+.nav{
+    width: 100%;
+    min-height: 50px;
+    background-color: blue;
+    text-align: center;
+    padding-top: 16px;    
+}
+.nav p{
+    color: white;
+    letter-spacing: 1;
+}
+.nav a{
+    padding-top: 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+.nav a:hover{
+    text-decoration: underline;
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+    box-shadow: 0 0 5px 5px #ccc;
+}
+.container h1{
+    text-align: center;
+    color: #ff0000;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 14px;
+    padding-bottom: 9px;
+}
+.tuvan{
+    margin-top: 30px;
+    width: 100%;
+    height: 75%;    
+}
+.tuvan .bang{
+    width: 90%;
+    height: 450px;
+    text-align: center;
+    margin-left: 60px;
+}
+.hang-1{
+    background-color: #fff000;
+    border: 0.5px solid black;
+}
+.hang h1{
+    margin-top: 5px;
+    font-weight: 500;
+}
+.bang .hang{
+    height: 50px;
+}
+.hang .cot{
+    width: 50%;
+    height: 100%;
+    float: left;
+    border: 0.5px solid black;
+}
+.hang-2{
+    background-color: #8b0000;
+}
+.cot h2{
+    margin-top: 10px;
+    font-weight: 600;
+    color: white;
+}
+.cot h3{
+    margin-top: 10px;
+    font-size: 24px;
+}
+.content {
+    width: 100%;
+    height: 140%;  
+    margin-top: 5px;
+    margin-left: 60px;    
+}
+.content .begin{
+    border-radius: 10px;
+}
+.content .tieude{
+    width: 90%;
+    height: 50px;
+    box-shadow: 0 0 5px gray;
+    text-align: center;
+    background-color: #fff000;
+}
+.content .tieude h1{
+    padding-top: 5px;
+    color: blue;
+}
+.content .banner{
+    width: 90%;
+    height: 400px;
+}
+.content .banner img{
+    width: 100%;
+    height: 100%;
+}
+.content .video{
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 90%;
+    height: 500px;
+    box-shadow: 0 0 5px gray;
+}
+.content .video video{
+    border-radius: 10px;
+
+}
+.content .sanpham{
+    margin-top: 20px;
+    width: 28%;
+    height: 400px;
+    float: left;
+    border-radius: 10px;
+    margin-right: 40px;   
+    box-shadow: 0 0 7px gray; 
+}
+.sanpham:hover{
+    box-shadow: 0 0 20px #0099ff;
+    cursor: pointer;
+    font-size: 30px;    
+}
+.sanpham .anh{
+    margin-top: 10px;
+    width: 70%;
+    height: 250px;
+    margin-left: 50px;
+}
+.sanpham .anh img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.sanpham .ten p{
+    line-height: 25px;
+    color: #333333;
+    margin: 10px 0px;
+    padding: 0 10px;
+    font-size: 20px;
+}
+.sanpham .ten p:hover{
+    color: #6633cc;
+    cursor: pointer;
+}
+.sanpham .gia p{
+    line-height: 30px;
+    margin: 10px 0px;
+    padding: 0 10px;
+    font-size: 18px;
+}
+.sanpham .gia strong{
+    color: red
+}
+.footer {
+    margin-top: 40px;
+    width: 100%;
+    height: 100%;   
+    text-align: center; 
+}
+.footer .tieude{
+    padding-top: 5px;
+    text-align: center;
+    width: 100%;
+    min-height: 50px;
+    background-color: red;
+}
+.footer .tieude h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.footer .table_hn{
+    width: 100%;
+    height: 100%;
+}
+.table_hn .name {
+    margin-top: 16px;
+    width: 100%;
+    height: 40px;
+    padding-top: 5px;
+    background-color: #0099ff;
+    border: 1px solid black;
+    color: white;
+}
+.table_hn .list{
+    width: calc(100% / 3);
+    float: left;
+    height: 80%;
+
+}
+.table_hn .list_4{
+    width: 100%;
+    height: 20%;
+
+}
+.table_hn .layout{
+    width: 100%;
+    height: calc(100% / 3); 
+    border: 1px solid black;
+}
+.table_hn .list1_1{
+    line-height: 30px;   
+}
+.table_hn .list1_1 h3{
+    text-align:left;
+    margin-left: 16px;
+}
+.table_hn .list1_1 ul{
+    text-align: left;
+}
+.footer .table_hcm{
+    margin-top: -20px;
+    width: 100%;
+    height: 300px;
+}
+.table_hcm .name {
+    width: 100%;
+    height: 50px;
+    background-color: #0099ff;
+    padding-top: 5px;
+    color: white;
+    border: 1px solid black;
+}
+.table_hcm .list_hcm{
+    width: 100%;
+    height: 200px;
+}
+.table_hcm .layout{
+    float: left;
+    width: calc(100% / 3);
+    height: 100%; 
+    border: 1px solid black;
+}
+.table_hcm .item1 {
+    line-height: 30px;
+}
+.table_hcm .item1 h3{
+    text-align: left;
+    padding-left: 16px;
+}
+.table_hcm .item1 ul{
+    text-align: left;
+}
